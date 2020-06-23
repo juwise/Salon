@@ -1,0 +1,50 @@
+{% extends 'haircut/base.html'%}
+  {% block content %}{% load static %}
+  <div class="container">
+    <div class="jumbotron">
+          <h1 class="abt" style="font-size:500%";>About page</h1>
+      <div class="row">
+    <div class="column">
+      <img src="{% static 'img/barb/b1.jpg' %}" alt="Snow" width="250" height="300" style="vertical-align:middle;margin:10px 0px">
+    </div>
+    <div class="column">
+      <img src="{% static 'img/barb/b2.jpg' %}" alt="Forest" width="250" height="300" style="vertical-align:middle;margin:10px 5px">
+    </div>
+    <div class="column">
+      <img src="{% static 'img/barb/g10.jpg' %}" alt="Mountains" width="250" height="300" style="vertical-align:middle;margin:10px 0px">
+    </div>
+    <div class="column">
+      <img src="{% static 'img/barb/about-img2.jpg' %}" alt="Mountains" width="250" height="300" style="vertical-align:middle;margin:10px 5px">
+    </div>
+  </div>
+
+
+
+<h5 class="txt">Our business has grown from humble beginnings to a brand customer are beginning to appreciate and idolize. We started off as a styling brand and later discovered that we also needed to fill in the void created by customers of all gender and race, to give them classic and lasting hair cuts that they always dreamt about and fantasized.
+Our Mission Statement is to bring the fantasy of our esteemed clients to reality by delivering top-notch customer service to create life time lasting relationship with them. Knowing fully well that our business is basically founded on excellent customer delivery.
+Our services include male and female hair styling/haircuts, fixing of extensions/weavons and coloring of hair.</h5>
+  </div>
+  </div>
+
+{% endblock %}
+
+
+
+<!--- <div class="col-lg-3 col-sm-6 col-md-3">
+  <div class="single-service">
+    <img class="img-fluid" src="{% static 'img/service/service2.jpg' %}" alt="">
+    <h4>Quality Gel Shave</h4>
+  </div>
+</div>
+<div class="col-lg-3 col-sm-6 col-md-3">
+  <div class="single-service">
+    <img class="img-fluid" src="{% static 'img/service/service3.jpg' %}" alt="">
+    <h4>Beard Trimming</h4>
+  </div>
+</div>
+<div class="col-lg-3 col-sm-6 col-md-3">
+  <div class="single-service">
+    <img class="img-fluid" src="{% static 'img/service/service4.jpg' %}" alt="">
+    <h4>{{barb.name}}</h4>
+  </div>
+</div> -->
