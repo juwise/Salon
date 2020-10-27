@@ -3,7 +3,7 @@ bcrypt==3.1.4
 certifi==2018.8.24
 cffi==1.11.5
 chardet==3.0.4
-cryptography==2.9.2
+cryptography==3.2
 defusedxml==0.6.0
 Django==2.1.1
 django-allauth==0.41.0
